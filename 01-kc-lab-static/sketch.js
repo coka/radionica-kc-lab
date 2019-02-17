@@ -9,12 +9,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
 
-  tileSize = 64;
+  tileSize = 12;
   halfSize = tileSize / 2;
   backgroundColor = color(174, 50, 73);
   tileColor = color(232, 74, 95);
   specialTileColor = color(222);
-  specialTileFrequency = 0.2;
+  specialTileFrequency = 0.8;
 
   background(backgroundColor);
   for (var y = 0; y < height; y += tileSize) {
