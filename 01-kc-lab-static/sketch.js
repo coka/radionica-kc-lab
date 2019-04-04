@@ -9,7 +9,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
 
-  tileSize = 12;
+  tileSize = 64;
   halfSize = tileSize / 2;
   backgroundColor = color(174, 50, 73);
   tileColor = color(232, 74, 95);
